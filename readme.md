@@ -1,4 +1,4 @@
-# tupicode todos 
+# typicode todos 
 making request of POST and DELETE using fetch 
 
 Notes:
@@ -53,4 +53,4 @@ Notes:
      
      div.setAttribute();
      when we add custom attribute (which are not standard markup attributes) we should prefix it with "data-" so when we need to access it we can use a property data set
-     
+
