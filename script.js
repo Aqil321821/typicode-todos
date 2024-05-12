@@ -71,7 +71,7 @@ const createTodo = (e) => {
 //4.
 
 
-const toggleCompleted=()=>{
+const toggleCompleted=(e)=>{
   if (e.target.classList.contains('todo')) {
      
     e.target.classList.toggle('done');
@@ -106,7 +106,7 @@ const deleteTodo=(e)=>{
 
   if (e.target.classList.contains('todo')) {
      
-    // console.log('test ');
+    console.log('deleted todo ');
    const id = e.target.dataset.id;
    fetch(`${apiUrl}/{id}`,{
     method:'DELETE',
